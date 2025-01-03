@@ -1,16 +1,16 @@
-# facebook_ui
+# Facebook UI
 
-A new Flutter project.
+Proyecto educativo desarrollado en Flutter para recrear la interfaz de usuario de Facebook.
 
-## Getting Started
+## Descripción
 
-This project is a starting point for a Flutter application.
+Este proyecto es parte de un curso en el que se aprenden fundamentos de Flutter, incluyendo el manejo de widgets y diseño de interfaces.
 
-A few resources to get you started if this is your first Flutter project:
+## Estructura
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **lib/**: Contiene los archivos principales del código Flutter.
+- **assets/**: Incluye emojis, íconos y wallpapers utilizados en la UI.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Autor
+
+- **Federico Ríos**
