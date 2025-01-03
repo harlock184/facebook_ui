@@ -1,0 +1,59 @@
+name: facebook_ui
+description: "A new Flutter project."
+publish_to: 'none' # Prevent publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  # Ensure Material Icons font is included
+  uses-material-design: true
+
+  # Add assets
+  assets:
+    - lib/assets/images/
+    - lib/assets/icons/
+    - lib/assets/emojis/angry.svg
+    - lib/assets/emojis/heart.svg
+    - lib/assets/emojis/laughing.svg
+    - lib/assets/emojis/like.svg
+    - lib/assets/emojis/sad.svg
+    - lib/assets/emojis/shocked.svg
+    - lib/assets/wallpapers/1.jpeg
+    - lib/assets/wallpapers/2.jpeg
+    - lib/assets/wallpapers/3.jpeg
+    - lib/assets/wallpapers/4.jpeg
+    - lib/assets/wallpapers/5.jpeg
+    - lib/assets/wallpapers/6.jpeg
+    - lib/assets/users/1.jpg
+    - lib/assets/users/2.jpg
+    - lib/assets/users/3.jpg
+    - lib/assets/users/4.jpg
+    - lib/assets/users/5.jpg
+    - lib/assets/users/6.jpg
+    - lib/assets/users/7.jpg
+    - lib/assets/users/8.jpg
+    - lib/assets/publications/ferrari.jpeg
+    - lib/assets/publications/flutter.jpeg
+    - lib/assets/logos/facebook.svg
+  
+
+
+
+  # Add custom fonts
+  fonts:
+    - family: CustomIcons
+      fonts:
+        - asset: lib/assets/icons/CustomIcons.ttf
