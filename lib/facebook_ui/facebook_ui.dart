@@ -37,6 +37,7 @@ class FacebookUi extends StatelessWidget {
           CircleButton(
             color: Color(0xff7BBAFF),
             iconData: CustomIcons.user_friends,
+            showBadge: true,
           ),
           SizedBox(
             width: 15,
