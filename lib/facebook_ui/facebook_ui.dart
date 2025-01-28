@@ -2,8 +2,9 @@ import 'package:facebook_ui/assets/icons/custom_icons_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'what_is_on_your_maind.dart';
+import 'widgets/what_is_on_your_maind.dart';
 import 'widgets/circle_button.dart';
+import 'package:facebook_ui/facebook_ui/widgets/quick_actions.dart';
 
 class FacebookUi extends StatelessWidget {
   @override
@@ -58,6 +59,8 @@ class FacebookUi extends StatelessWidget {
         ).copyWith(top: 20),
         children: const [
           WhatIsOnYourMind(),
+          SizedBox(height: 30),
+          QuickActions(),
         ],
       ),
     );

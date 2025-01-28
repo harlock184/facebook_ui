@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../assets/icons/custom_icons_icons.dart';
+import '../../assets/icons/custom_icons_icons.dart';
 
 class MyIconsScreen extends StatelessWidget {
   @override
@@ -29,19 +29,19 @@ class MyIconsScreen extends StatelessWidget {
               size: 50,
               color: Colors.red,
             ),
-               SizedBox(height: 20),
+            SizedBox(height: 20),
             Icon(
               CustomIcons.edit, // Icono "home"
               size: 50,
               color: Colors.yellow,
             ),
-               SizedBox(height: 20),
+            SizedBox(height: 20),
             Icon(
               CustomIcons.messenger, // Icono "home"
               size: 50,
               color: Colors.blueGrey,
             ),
-               SizedBox(height: 20),
+            SizedBox(height: 20),
             Icon(
               CustomIcons.bell, // Icono "home"
               size: 50,
